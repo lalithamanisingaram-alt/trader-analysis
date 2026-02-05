@@ -1,2 +1,10 @@
 # trader-analysis
-"End-to-end data science pipeline analyzing the correlation between Crypto Market Sentiment (Fear &amp; Greed Index) and trader performance. Features advanced data cleaning, K-Means behavioral clustering, and a Random Forest predictive model for trader profitability."
+This repository contains a comprehensive analysis of trader behavior relative to market sentiment cycles. As part of a Junior Data Scientist selection process, this project demonstrates the ability to:
+
+Resolve Technical Debt: Corrected critical Unix epoch timestamp unit mismatches (the '1970 bug') to ensure accurate temporal alignment.
+
+Extract Behavioral Insights: Quantified shifts in trading frequency, win rates, and long/short biases during market extremes.
+
+Predictive Modeling: Built a Random Forest Classifier to categorize next-day trader profitability based on current behavior and sentiment.
+
+User Segmentation: Leveraged Unsupervised Learning (K-Means) to define behavioral archetypes for personalized risk management.
